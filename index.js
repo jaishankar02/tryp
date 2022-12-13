@@ -12,7 +12,7 @@ window.addEventListener("load",hideNav);
 
 const burgerBox = document.querySelector(".burger-box");
 let menuOpen = flase;
-window.addEventListener("click",() => {
+burgerBox.addEventListener('click',() => {
     if(!menuOpen){
         burgerBox.classList.add("open");
         menuOpen = true;

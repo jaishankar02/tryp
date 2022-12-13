@@ -11,7 +11,7 @@ window.addEventListener("resize",hideNav);
 window.addEventListener("load",hideNav);
 
 const burgerBox = document.querySelector(".burger-box");
-let menuOpen = flase;
+let menuOpen = false;
 burgerBox.addEventListener('click',() => {
     if(!menuOpen){
         burgerBox.classList.add("open");

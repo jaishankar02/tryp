@@ -24,12 +24,16 @@
     display: flex;
     align-items: center;
 }
+.nav-brand-name a{
+    text-decoration: none;
+    color: black;
+}
 .nav-brand-name p{
     font-size: 1.7rem;
     font-family: 'Quicksand', sans-serif;
     /* border: 1px solid red; */
     font-weight: 700;
-
+    cursor: pointer;
 
 }
 

@@ -36,7 +36,7 @@
 .nav-Menu{
     height: 10vh;
     width: 35%;
-    
+
 }
 .nav-Menu ul{
     height: 10vh;
@@ -110,9 +110,9 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    z-index: 2;
     right: 20px;
     top:10px
-    
 }
 .burger-lines{
     width: 30px;
@@ -173,5 +173,43 @@
 .nav-brand-name{
     margin-left:25px;
 }
-
+.nav-Menu{
+    width: 250px;
+    height: 100vh;
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    transform: translateX(250px);
+    transition: all 0.5s ease-in-out;
+}
+.nav-Menu.active{
+    transform: translateX(0px);
+    transition: all 0.5s ease-in-out;
+}
+.nav-Menu ul{
+    /* border: 1px solid red; */
+    background-color: #fff;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    margin-top: 15vh;
+}
+.nav-Menu ul li{
+    /* border-bottom:1px solid black; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-top: 30px;
+}
+.nav-Menu ul li span::before{
+    display: none;
+}
+.nav-Menu ul li span::after{
+    display: none;
+}
+.nav-Menu ul li::before{
+    display: none;
+}
+.nav-Menu ul li a{
+    font-size: 1.5rem;
+}
 }

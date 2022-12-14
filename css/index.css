@@ -1,10 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-    
-}
 @keyframes colorDisAppeaerh3{
     0%{transform: translateX(0);background-color: #9B51E0;width:75px;}
     100%{transform: translateX(37.5px);background-color: transparent;width: 0;}
@@ -17,6 +10,18 @@
     0%{transform: translate(0,26px);background-color: #9B51E0;}
     100%{transform: translate(30px,26px);background-color: transparent;width: 0;}
 }
+@keyframes textAnimation{
+    0%{}
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
 /* navbar section */
 .navbar{
     /* border:1px solid red; */
@@ -301,7 +306,7 @@
     background: transparent;
 } */
 .introDes h1{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     /* border: 1px solid black; */
     display: inline-block;
     margin-bottom: 5px;

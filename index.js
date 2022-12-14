@@ -15,7 +15,7 @@ window.addEventListener("load",hideNav);
 
 
 let menuOpen = false;
-burgerBox.addEventListener('click',() => {
+function clickHideNav(){
     if(!menuOpen){
         burgerBox.classList.add("open");
         menuOpen = true;
@@ -28,4 +28,5 @@ burgerBox.addEventListener('click',() => {
         navMenu.classList.remove("active");
         // navMenu.style.display = "none";
     }
-})
+}
+burgerBox.addEventListener('click',clickHideNav);

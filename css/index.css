@@ -5,9 +5,13 @@
     
     
 }
-@keyframes colorDisAppeaer{
+@keyframes colorDisAppeaerh3{
     0%{transform: translateX(0);background-color: #9B51E0;}
-    100%{transform: translateX(60px);background-color: transparent;}
+    100%{transform: translateX(37.5px);background-color: transparent;width: 0;}
+}
+@keyframes colorDisAppeaerh1{
+    0%{transform: translateX(0);background-color: #9B51E0;}
+    100%{transform: translateX(125px);background-color: transparent;width: 0;}
 }
 /* navbar section */
 .navbar{
@@ -251,7 +255,7 @@
     margin-bottom: 5px;
     width: 80px;
     color:transparent;
-    transition:all 2s ease-in-out;
+    transition:all 3s ease-in-out;
 }
 .introDes h3.textAppearh3{
     color: black;
@@ -260,11 +264,11 @@
     content: "";
     position: absolute;
     height: 65px;
-    width: 80px;
+    width: 75px;
     /* background-color:#9B51E0; */
     transition: all 1.5s ease-in-out;
-    animation-name: colorDisAppeaer;
-    animation-duration: 2s;
+    animation-name: colorDisAppeaerh3;
+    animation-duration: 3s;
     /* animation-direction:reverse ; */
 }
 /* .introDes.colorEnd h3::before{
@@ -277,7 +281,7 @@
     display: inline-block;
     margin-bottom: 5px;
     color:transparent;
-    transition:all 2.5s ease-in-out;
+    transition:all 3s ease-in-out;
 }
 .introDes h1.textAppearh1{
     color:black;
@@ -286,11 +290,12 @@
     content: "";
     position: absolute;
     height: 65px;
-    width: 300px;
+    width: 250px;
     /* background-color:#9B51E0; */
     transition: all 1.5s ease-in-out;
-    animation-name: colorDisAppeaer;
-    animation-duration: 2s;
+    animation-name: colorDisAppeaerh1;
+    animation-duration: 3s;
+    /* animation-direction:reverse ; */
 }
 /* .introDes.colorEnd h1::before{
     transform: translateX(60px);

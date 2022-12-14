@@ -5,7 +5,10 @@
     
     
 }
-
+@keyframes colorDisAppeaer{
+    0%{transform: translateX(0);background-color: #9B51E0;}
+    100%{transform: translateX(60px);background-color: transparent;}
+}
 /* navbar section */
 .navbar{
     /* border:1px solid red; */
@@ -256,15 +259,18 @@
 .introDes h3::before{
     content: "";
     position: absolute;
-    width:80px;
     height: 65px;
-    background-color:#9B51E0;
+    width: 80px;
+    /* background-color:#9B51E0; */
     transition: all 1.5s ease-in-out;
+    animation-name: colorDisAppeaer;
+    animation-duration: 2s;
+    /* animation-direction:reverse ; */
 }
-.introDes.colorEnd h3::before{
+/* .introDes.colorEnd h3::before{
     transform: translateX(60px);
     background: transparent;
-}
+} */
 .introDes h1{
     font-size: 3.5rem;
     /* border: 1px solid black; */
@@ -281,13 +287,15 @@
     position: absolute;
     height: 65px;
     width: 300px;
-    background-color:#9B51E0;
+    /* background-color:#9B51E0; */
     transition: all 1.5s ease-in-out;
+    animation-name: colorDisAppeaer;
+    animation-duration: 2s;
 }
-.introDes.colorEnd h1::before{
+/* .introDes.colorEnd h1::before{
     transform: translateX(60px);
     background: transparent;
-}
+} */
 .introDes h2{
     font-size: 2.2rem;
     /* border: 1px solid black; */

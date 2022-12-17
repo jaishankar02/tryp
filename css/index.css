@@ -228,8 +228,7 @@
     }
     .introDes{
         /* border:1px solid red; */
-        height: 250px;
-        width: 70%;
+        height: 225px;
         line-height: 4rem;
         font-family: 'Quicksand', sans-serif;
         display: flex;
@@ -265,6 +264,7 @@
     .introDes h1{
         font-size: 3rem;
         /* border: 1px solid black; */
+        width:220px;
         display: inline-block;
         margin-bottom: 5px;
         color:transparent;
@@ -346,18 +346,21 @@
 .homeButton{
     /* border:1px solid red; */
     display: flex;
-    width: 210px;
-    height: 40px;
-    transform: translate(-15px,-35px);
+    /* width: 210px; */
+    /* height: 40px; */
+    /* transform: translate(-15px,-35px); */
     justify-content: space-between;
 }
 .knowMore{
-    width: 48%;
+    /* width: 48%; */
+    padding: 10px 20px;
     background: transparent;
     border: 1px solid #9B51E0;
+    margin-right: 10px;
 }
 .resume{
-    width: 48%;
+    /* width: 48%; */
+    padding: 10px 20px;
     background: transparent;
     border: 1px solid #9B51E0;
 }
